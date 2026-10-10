@@ -2,7 +2,7 @@
 using System;
 using System.Numerics;
 
-Player player = new Player("Mario");
+Player player = new Player("Paul");
 
 Console.WriteLine($"Name: {player.Name}");
 Console.WriteLine($"Level: {player.Level}");
