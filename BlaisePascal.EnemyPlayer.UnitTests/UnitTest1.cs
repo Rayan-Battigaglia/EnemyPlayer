@@ -24,14 +24,7 @@ namespace BlaisePascal.EnemyPlayer.UnitTests
             Player player = new Player("Luigi");
             Assert.Equal(100, player.Health);
         }
-
-        [Fact]
-        public void e()
-        {
-            Player player = new Player("Luigi");
-            Assert.Equal(0, player.Experience);
-        }
-
+        
 
     }
 }
